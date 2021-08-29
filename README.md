@@ -3,4 +3,4 @@ Simple snake game
 
 * HTML
 * CSS
-* JavaScript (Jquery)
+* JavaScript (jQuery)
