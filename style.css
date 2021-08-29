@@ -1,0 +1,79 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	min-height: 100vh;
+}
+
+@font-face {
+	font-family: orange-kid;
+	src: url("orange-kid.ttf");
+}
+
+::-moz-selection,
+::selection {
+	color: #000;
+	background: #fff;
+}
+
+body {
+	margin: 0;
+	font-family: orange-kid, Verdana, Arial;
+	overflow-x: hidden;
+	background: #000;
+}
+
+#snake-game {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	z-index: 3;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+#snake-game canvas {
+	border: 20px solid #e7ded0;
+	max-width: 400px;
+	max-height: 400px;
+	width: 100%;
+}
+
+#snake-game footer {
+	color: #e7ded0;
+	max-width: 400px;
+	width: 100%;
+	font-size: 2em;
+	padding: 0 1em;
+}
+
+#snake-game .start-game,
+#snake-game .game-over {
+	position: absolute;
+	color: #e7ded0;
+	font-size: 4em;
+	text-align: center;
+	margin-top: -38px;
+	display: none;
+}
+#snake-game .start-game .play {
+	cursor: pointer;
+}
+#snake-game .start-game .controls {
+	font-size: 0.6em;
+	padding: 1em 1em 0;
+	max-width: 400px;
+}
+#snake-game .game-over .restart {
+	font-size: 0.8em;
+	cursor: pointer;
+}
+#snake-game .start-game .play:first-letter,
+#snake-game .game-over .restart:first-letter {
+	text-decoration: underline 0.1em;
+}
