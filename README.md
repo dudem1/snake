@@ -5,4 +5,6 @@ Simple snake game
 * CSS
 * JavaScript (jQuery)
 
-[DEMO](http://dudem.wz.sk)
+[You can play it on my personal page](http://dudem.wz.sk)
+
+![small animated demo](https://raw.githubusercontent.com/dudem1/snake/main/snake.gif)
