@@ -1,5 +1,5 @@
 # Snake
-Simple snake game
+Simple snake game 🐍
 
 * HTML
 * CSS
